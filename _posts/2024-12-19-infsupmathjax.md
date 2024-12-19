@@ -16,7 +16,7 @@ When it comes to limits of sets, I've always had a hard time keeping the notatio
 - \\(\underline{\lim}x_n=x^-\\) is the smallest limit point such that there exists a subsequence \\(\phi:\mathbb{N}\rightarrow\mathbb{N}\\) with \\(\lim x_{\phi(n)}=x^-\\)
 <br>
 
-- likewise for \\(\overline{\lim}x_n\\)
+- likewise for \\(\overline{\lim}x_n=x^{+}\\), the largest possible limit for subsequence of \\(x_n\\).
 <br>
 
 ![limsupinf_sequence](/assets/img/2024-12-19-infsupmathjax.png)
@@ -42,4 +42,4 @@ I also like the idea of the inf/sup limits of \\(A_n\\) as articulated in plain 
 - \\(\underline{\lim}A_n\\): The set of things that eventually happen every time
 <br>
 <br>
-That seems nice, but subsequent logic is totally unwieldly. How do you explain the fact that the existence of a single limit is when these two sets equal each other? "When everything that will eventually happen is always happening, nothing will ever change". It's not exactly Shakespearean. But that's math.
+That seems nice, but subsequent logic is totally unwieldly. How do you explain the fact that a singular limit exists iff these two sets equal each other? "When everything that will eventually happen is always happening, nothing will ever change". It's not exactly Shakespearean. But that's math.
