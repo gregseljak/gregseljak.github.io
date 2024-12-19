@@ -19,6 +19,8 @@ When it comes to limits of sets, I've always had a hard time keeping the notatio
 - likewise for \\(\overline{\lim}x_n\\)
 <br>
 
+![limsupinf_sequence](/assets/img/2024-12-19-infsupmathjax.png)
+
 There are plenty of nice visualizations of these definitions. The limit definitions for sets makes sense, but it's not immediately obvious that these are the same things as the sequence definitions.
 
 \\[\underline{\lim}A_n=\cup_{n\geq 1}\cap_{j\geq n}A_j\\]
