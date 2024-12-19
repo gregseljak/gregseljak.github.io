@@ -13,11 +13,13 @@ author: Greg
 
 When it comes to limits of sets, I've always had a hard time keeping the notation of \\(\overline{\lim}A_n\\) and \\(\underline{\lim}A_n\\) straight in my head. On the other hand, the lim sup/inf of functions (or sequences) has an obvious interpretation. I would never mix up \\(\overline{\lim}x_n\\) and \\(\underline{\lim}x_n\\). In school I learned that
 
-- \\(\underline{\lim}x_n=x^-\\) is the smallest limit point such that there exists a subsequence \\(\phi:\mathbb{N}\rightarrow\mathbb{N}\\) with \\(\lim x_{\phi(n)}=x^-\\)
+- \\(\underline{\lim}x_n=\overline{x}\\) is the smallest limit point such that there exists a subsequence \\(\phi:\mathbb{N}\rightarrow\mathbb{N}\\) with \\(\lim x_{\phi(n)}=\underline{x}\\)
 <br>
 
 - likewise for \\(\overline{\lim}x_n=x^{+}\\), the largest possible limit for subsequence of \\(x_n\\).
 <br>
+
+Here's a visualization of a simple sequence \\(x_n\\) that does not converge, but has pretty clearly \\(\underline{x}=-1\,\mspace{3mu}\overline{x}=1\\)
 
 ![limsupinf_sequence](/assets/img/2024-12-19-infsupmathjax.png)
 
@@ -28,7 +30,7 @@ There are plenty of nice visualizations of these definitions. The limit definiti
 \\[\overline{\lim}A_n=\cap_{n\geq 1}\cup_{j\geq n}A_j\\]
 
 The two concepts share notation because they are in some ways analogous to each other, but I never really thought about the precise
-correspondence between the two. The following "exercise" reveals more of a mnemonic than a really profound finding, but I wish I'd thought of it when taking Real Analysis.
+correspondence between the two. The following "exercise" shows a relationship that can be used as a mnemonic. It's not terribly profound, but I wish I'd thought of it when taking Real Analysis.
 
 \\[\text{Let }\{x_n\}\text{ be an infinite sequence in }\mathbb{R}\\]
 \\[\text{Let }A_n=(-\infty,x_n]\\]
