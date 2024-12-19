@@ -2,6 +2,7 @@
 layout: post
 title: Lim Sup/Inf notation
 subtitle: Hello World
+mathjax: true
 date: 2024-12-19
 tags: [math, test]
 author: Greg
