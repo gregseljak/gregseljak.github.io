@@ -11,15 +11,15 @@ author: Greg
 
 ### MathJax Test Post
 
-When it comes to limits of sets, I've always had a hard time keeping the notation of \\(\overline{\lim}A_n\\) and \\(\underline{\lim}A_n\\) straight in my head. On the other hand, the lim sup/inf of functions (or sequences) has an obvious interpretation. I would never mix up \\(\overline{\lim}x_n\\) and \\(\underline{\lim}x_n\\). In school I learned that
+When it comes to limits of sets, I've always had a hard time keeping the notation of \\(\overline{\lim}A_n\\) and \\(\underline{\lim}A_n\\) straight in my head. On the other hand, the lim sup/inf of functions (or sequences) has an obvious interpretation and are easy to remember. The intuitive definitions of \\(\overline{\lim}x_n\\) and \\(\underline{\lim}x_n\\) for me were:
 
 - \\(\underline{\lim}x_n=\overline{x}\\) is the smallest limit point such that there exists a subsequence \\(\phi:\mathbb{N}\rightarrow\mathbb{N}\\) with \\(\lim x_{\phi(n)}=\underline{x}\\)
 <br>
 
-- likewise for \\(\overline{\lim}x_n=x^{+}\\), the largest possible limit for subsequence of \\(x_n\\).
+- Equivalently (but less intuitively), \\(\underline{\lim}x_n=\lim_{n\rightarrow 0}\left(\inf_{m\geq n}x_m\right)\\)
 <br>
 
-Here's a visualization of a simple sequence \\(x_n\\) that does not converge, but has pretty clearly \\(\underline{x}=-1\,\mspace{3mu}\overline{x}=1\\)
+Then the definitions for the \\(\overline{\lim}x_{n}\\) are just changed to be sup instead of inf. Here's a visualization of a simple sequence \\(x_n\\) that does not converge, but has pretty clearly:<br>\\(\underline{x}=-1,\text{ and }\,\mspace{3mu}\overline{x}=1\\)
 
 ![limsupinf_sequence](/assets/img/2024-12-19-infsupmathjax.png)
 
