@@ -32,7 +32,7 @@ Then the definitions for the \\(\overline{\lim}x_{n}\\) are just changed to be s
 The limit definitions for sets makes sense, but it's not immediately obvious that these are the same things as the sequence definitions. The two concepts share notation because they are in some ways analogous to each other, but I never really thought about the precise correspondence between the two. It's true that for positive measure \\(\mu\\) we'll have
 
 \\[\mu\left(\underline{\lim}A_n\right)\leq\mu\left(\overline{\lim}A_n\right)\\]
-\\[\underline{\lim}x_n\leq\overline{\lime}x_n\\]
+\\[\underline{\lim}x_n\leq\overline{\lim}x_n\\]
 
 The following "exercise" shows an example relationship that can be used as a mnemonic. It's not terribly profound, but I wish I'd thought of it when taking Real Analysis. Not a bad quiz question for an intro course, maybe.
 
