@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lim Sup/Inf notation
-subtitle: Hello World for MathJax
+subtitle: (Hello World for MathJax)
 mathjax: true
 date: 2024-12-19
 tags: [math, test]
@@ -9,7 +9,7 @@ author: Greg
 ---
 <br><br><br><br>
 
-### MathJax Test Post
+### \\(\overline{\lim}A_n\\) vs \\(\underline{\lim}A_n\\)
 
 When it comes to limits of sets, I've always had a hard time keeping the notation of \\(\overline{\lim}A_n\\) and \\(\underline{\lim}A_n\\) straight in my head. Was it cup-cap or cap-cup? To be sure, it's
 
@@ -22,14 +22,19 @@ On the other hand, the lim sup/inf of functions (or sequences) has an obvious in
 - \\(\underline{\lim}x_n=\overline{x}\\) is the smallest limit point such that there exists a subsequence \\(\phi:\mathbb{N}\rightarrow\mathbb{N}\\) with \\(\lim x_{\phi(n)}=\underline{x}\\)
 <br>
 
-- Equivalently (but less intuitively), \\(\underline{\lim}x_n=\lim_{n\rightarrow 0}\left(\inf_{m\geq n}x_m\right)\\)
+- Equivalently (but less intuitively), \\(\underline{\lim}x_n=\lim_{n\rightarrow \infty}\left(\inf_{m\geq n}x_m\right)\\)
 <br>
 
 Then the definitions for the \\(\overline{\lim}x_{n}\\) are just changed to be sup instead of inf. Once you see a visualization, it's impossible to get these confused. Here's a simple sequence \\(x_n\\) that does not converge, but has pretty clearly:<br>\\(\underline{x}=-1,\text{ and }\,\mspace{3mu}\overline{x}=1\\)
 
 ![limsupinf_sequence](/assets/img/2024-12-19-infsupmathjax.png)
 
-The limit definitions for sets makes sense, but it's not immediately obvious that these are the same things as the sequence definitions. The two concepts share notation because they are in some ways analogous to each other, but I never really thought about the precise correspondence between the two. The following "exercise" shows a relationship that can be used as a mnemonic. It's not terribly profound, but I wish I'd thought of it when taking Real Analysis. Not a bad test question for an intro course, maybe.
+The limit definitions for sets makes sense, but it's not immediately obvious that these are the same things as the sequence definitions. The two concepts share notation because they are in some ways analogous to each other, but I never really thought about the precise correspondence between the two. It's true that for positive measure \\(\mu\\) we'll have
+
+\\[\mu\left(\underline{\lim}A_n\right)\leq\mu\left(\overline{\lim}A_n\right)\\]
+\\[\underline{\lim}x_n\leq\overline{\lime}x_n\\]
+
+The following "exercise" shows an example relationship that can be used as a mnemonic. It's not terribly profound, but I wish I'd thought of it when taking Real Analysis. Not a bad quiz question for an intro course, maybe.
 
 **Exercise (trivial):** 
 \\[\text{Let }\{x_n\}\text{ be an infinite sequence in }\mathbb{R}\\]
@@ -37,6 +42,7 @@ The limit definitions for sets makes sense, but it's not immediately obvious tha
 
 **Question:** Find the inf/sup limits of \\(A_n\\) in terms of the inf/sup limits of \\(x_n\\).
 <br>
+<br><br>
 I also like the idea of the inf/sup limits of \\(A_n\\) as articulated in plain language:
 
 - \\(\overline{\lim}A_n\\): The set of things that are always approaching at some future time
