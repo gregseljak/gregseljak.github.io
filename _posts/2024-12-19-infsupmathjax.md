@@ -19,7 +19,7 @@ When it comes to limits of sets, I've always had a hard time keeping the notatio
 
 On the other hand, the lim sup/inf of functions (or sequences) has an obvious interpretation and are easy to remember. The intuitive definitions of \\(\overline{\lim}x_n\\) and \\(\underline{\lim}x_n\\) for me were:
 
-- \\(\underline{\lim}x_n=\overline{x}\\) is the smallest limit point such that there exists a subsequence \\(\phi:\mathbb{N}\rightarrow\mathbb{N}\\) with \\(\lim x_{\phi(n)}=\underline{x}\\)
+- \\(\underline{\lim}x_n=\underline{x}\\) is the smallest limit point such that there exists a subsequence \\(\phi:\mathbb{N}\rightarrow\mathbb{N}\\) with \\(\lim x_{\phi(n)}=\underline{x}\\)
 <br>
 
 - Equivalently (but less intuitively), \\(\underline{\lim}x_n=\lim_{n\rightarrow \infty}\left(\inf_{m\geq n}x_m\right)\\)
