@@ -29,7 +29,7 @@ Then the definitions for the \\(\overline{\lim}x_{n}\\) are just changed to be s
 
 ![limsupinf_sequence](/assets/img/2024-12-19-infsupmathjax.png)
 
-The limit definitions for sets makes sense, but it's not immediately obvious that these are the same things as the sequence definitions. The two concepts share notation because they are in some ways analogous to each other, but I never really thought about the precise correspondence between the two. It's true that for positive measure \\(\mu\\) we'll have
+The limit definitions for sets makes sense, but it's not clear how these are at all related to the definitions for sequences. The two concepts share notation because they are in some ways analogous to each other, but there isn't a really precise correspondence between the two. It's true that for positive measure \\(\mu\\) we'll have
 
 \\[\mu\left(\underline{\lim}A_n\right)\leq\mu\left(\overline{\lim}A_n\right)\\]
 \\[\underline{\lim}x_n\leq\overline{\lim}x_n\\]
@@ -50,4 +50,5 @@ I also like the idea of the inf/sup limits of \\(A_n\\) as articulated in plain 
 - \\(\underline{\lim}A_n\\): The set of things that eventually happen every time
 <br>
 <br>
+
 That seems nice, but subsequent logic is totally unwieldly. How do you explain the fact that a singular limit exists iff these two sets equal each other? "When everything that will eventually happen is always happening, nothing will ever change". It's not exactly Shakespearean. But that's math.
