@@ -1,1 +1,2 @@
+layout: subhome
 HelloWorld math
